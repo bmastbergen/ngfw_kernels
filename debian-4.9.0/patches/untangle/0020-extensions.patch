@@ -37,8 +37,8 @@ diff -urN linux-4.9.30.orig/include/uapi/linux/in.h linux-4.9.30/include/uapi/li
  #define IP_BIND_ADDRESS_NO_PORT	24
  
 +/* Extensions */
-+#define IP_SADDR	24
-+#define IP_SENDNFMARK	25
++#define IP_SADDR	25
++#define IP_SENDNFMARK	26
 +
  /* IP_MTU_DISCOVER values */
  #define IP_PMTUDISC_DONT		0	/* Never send DF frames */
